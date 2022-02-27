@@ -23,3 +23,25 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1600px;
 `;
+export const WraperImagen = styled.div`
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+export const WraperText = styled.div`
+  width: 50%;
+  height: 100%;
+  padding: 0 0 0 10%;
+`;
+export const Text = styled.p`
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+`;
+export const Img = styled.img`
+  width: 50%;
+  height: 50%;
+`;

@@ -10,3 +10,8 @@ const GlobalStyle = createGlobalStyle`
     scroll-behavior: smooth;
 }
 `;
+export const Wraper = styled.div`
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+`;

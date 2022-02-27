@@ -1,9 +1,21 @@
 import React from "react";
-import { Container } from "./AboutElements";
+import {
+  Container,
+  Img,
+  WraperImagen,
+  WraperText,
+  Text
+} from "./AboutElements";
 function AboutSection() {
   return (
     <Container>
-      <p>Hola soy la seccition de información</p>
+      <WraperImagen>
+        <WraperText>
+          <Text>Aparta tu sesión</Text>
+          <Text>En el consultorio Keymar </Text>
+        </WraperText>
+        <Img src="./img/keymar.png" />
+      </WraperImagen>
     </Container>
   );
 }

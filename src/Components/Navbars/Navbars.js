@@ -1,9 +1,14 @@
 import React from "react";
-import { Container } from "./NavbarsElements";
+import Img from "./Img/Img";
+import NavItem from "./NavItem/NavItem";
+import { Container, Wraper } from "./NavbarsElements";
 function Nabvar() {
   return (
     <Container>
-      <p>Hola Keymar</p>
+      <Wraper>
+        <Img src="./img/keymar1.png" alt="Logo" />
+        <NavItem />
+      </Wraper>
     </Container>
   );
 }
