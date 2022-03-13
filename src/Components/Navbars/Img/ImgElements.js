@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const WraperImg = styled.div`
-  width: 80px;
-  height: 80px;
+  width: ${({ width }) => (width ? width : "80px")};
+  height: ${({ height }) => (height ? height : "80px")};
   @media screen and (max-width: 960px) {
     width: 80px;
     height: 80px;
